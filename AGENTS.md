@@ -1,6 +1,6 @@
 # AGENTIC DIRECTIVE
 
-> This file is identical to CLAUDE.md. Keep them in sync.
+> This file is the canonical workspace instruction file.
 
 ## CODING ENVIRONMENT
 
