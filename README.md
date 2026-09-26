@@ -25,10 +25,14 @@ uv python install 3.14
 
 cp .env.example .env
 ```
-### 2. Start the proxy server
+changes to be done in .env
 ```bash
 NVIDIA_NIM_API_KEY=nvapi-xxxxxxxxxxxxxxxx
 MODEL=nvidia_nim/z-ai/glm-5-3
+```
+### 2. Start the proxy server
+```bash
+uv run uvicorn server:app --host 0.0.0.0 --port 8082
 ```
 ### 3. Install the Claude CLI
 (in another terminal)
